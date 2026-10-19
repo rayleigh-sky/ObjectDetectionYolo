@@ -113,8 +113,8 @@ Run the `notebooks/coco9_yolo.ipynb` file to train the model. My notebook uses
 the pretrained `yolo11n.pt` model, with a 640-pixel image size, batch size 16,
 and 50 training epochs by default. It first provides a short smoke test, then
 trains and evaluates the model, and copies the best weights to
-`models/yolo11n_coco9_best.pt`.
-(My pc has limited GPU and VRAM, and the best I can fine-tune is yolo11 Nano. You can expect better results on models with more parameters.)
+`models/yolo11n_coco9_best.pt`. \
+(My pc has limited GPU and VRAM, and the best I can fine-tune is yolo11 Nano. You can expect better results on models with more parameters.) \
 Training outputs are written under `runs/` and are excluded from Git.
 
 ## Run webcam detection
