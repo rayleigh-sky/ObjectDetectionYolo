@@ -10,7 +10,7 @@ footage.
 ## Dataset customization
 
 The size of the coco2017 dataset is 27GB and downloading the whole dataset to fine-tune a yolo model is impractical. 
-Instead I tried customizing the json file to download specific classes.
+\ Instead I tried customizing the json file to download specific classes.
 My classes are: 
   0: person
   1: umbrella
