@@ -35,7 +35,7 @@ And run the following scripts in order
 - check_dataset.py
 
 ### After downloading and checking the dataset, run the notebook to train the model
+coco9_yolo.ipynb (you can use another yolo pre-trained model) \
 (I uploaded the model I trained in \models, you can download and directly deploy in your app. The results for some classes aren't quite though.)
-coco9_yolo.ipynb (you can use another yolo pre-trained model)
 
 ### Then test the model using main.py (openCV based real-time detector).
