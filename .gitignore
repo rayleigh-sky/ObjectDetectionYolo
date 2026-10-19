@@ -1,0 +1,5 @@
+coco2017.ndjson
+dataset/
+notebooks/runs/
+notebooks/weights/
+runs/

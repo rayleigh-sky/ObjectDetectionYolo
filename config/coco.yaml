@@ -1,0 +1,15 @@
+path: ../dataset
+
+train: images/train
+val: images/val
+
+names:
+  0: person
+  1: umbrella
+  2: bottle
+  3: cup
+  4: fork
+  5: spoon
+  6: chair
+  7: cell phone
+  8: book
