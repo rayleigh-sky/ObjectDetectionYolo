@@ -9,8 +9,8 @@ footage.
 
 ## Dataset customization
 
-The size of the coco2017 dataset is 27GB and downloading the whole dataset to fine-tune a yolo model is impractical. 
-\ Instead I tried customizing the json file to download specific classes.
+The size of the coco2017 dataset is 27GB and downloading the whole dataset to fine-tune a yolo model is impractical. \
+Instead I tried customizing the json file to download specific classes.
 The classes I used in my model are: 
 - 0: person
 - 1: umbrella
@@ -27,7 +27,7 @@ The classes I used in my model are:
 Download the dataset json file from -> https://docs.ultralytics.com/datasets/detect/coco \
 Move the coco2017.ndjson to the project root. \
 run the following command in terminal -> pip install requirements.txt \
-And run the following scripts in order \
+And run the following scripts in order
 - inspect_coco.py
 - select_images.py (adjust the dataset size)
 - count_classes.py
@@ -35,6 +35,7 @@ And run the following scripts in order \
 - check_dataset.py
 
 ### After downloading and checking the dataset, run the notebook to train the model
-coco9_yolo.ipynb (you can use another yolo pre-trained model) \
+(I uploaded the model I trained in \models, you can download and directly deploy in your app. The results for some classes aren't quite though.)
+coco9_yolo.ipynb (you can use another yolo pre-trained model)
 
 ### Then test the model using main.py (openCV based real-time detector).
