@@ -11,16 +11,16 @@ footage.
 
 The size of the coco2017 dataset is 27GB and downloading the whole dataset to fine-tune a yolo model is impractical. 
 \ Instead I tried customizing the json file to download specific classes.
-My classes are: 
- \ 0: person
- \ 1: umbrella
- \ 2: bottle
- \ 3: cup
- \ 4: fork
- \ 5: spoon
- \ 6: chair
- \ 7: cell phone
- \ 8: book
+The classes I used in my model are: 
+- 0: person
+- 1: umbrella
+- 2: bottle
+- 3: cup
+- 4: fork
+- 5: spoon
+- 6: chair
+- 7: cell phone
+- 8: book
 
 
 ## How to run this project?
@@ -28,11 +28,11 @@ Download the dataset json file from -> https://docs.ultralytics.com/datasets/det
 Move the coco2017.ndjson to the project root. \
 run the following command in terminal -> pip install requirements.txt \
 And run the following scripts in order \
-inspect_coco.py \
-select_images.py (adjust the dataset size) \
-count_classes.py \ 
-download_coco.py (adjust the number of workers before running) \
-check_dataset.py\
+- inspect_coco.py
+- select_images.py (adjust the dataset size)
+- count_classes.py
+- download_coco.py (adjust the number of workers before running)
+- check_dataset.py
 
 ### After downloading and checking the dataset, run the notebook to train the model
 coco9_yolo.ipynb (you can use another yolo pre-trained model) \
